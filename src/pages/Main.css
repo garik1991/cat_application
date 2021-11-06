@@ -1,0 +1,14 @@
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    background-image: linear-gradient(to right, #649173, #DBD5A4);
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 1200px) {
+    .main-container{
+        flex-direction: column;
+    }
+}

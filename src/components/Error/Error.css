@@ -1,0 +1,28 @@
+.error{
+    position: absolute;
+    top: 50px;
+    left: 25%;
+    right: 25%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: calc(50%);
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: lightpink;
+    color: white;
+    opacity: 0.9;
+}
+
+.error button{
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.error button:hover{
+    cursor: pointer;
+}
