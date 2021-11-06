@@ -1,3 +1,4 @@
+import React from "react";
 import "./Error.css";
 import {connect} from "react-redux";
 import {thunkAppError} from "../../redux/thunks/app";

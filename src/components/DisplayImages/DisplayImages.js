@@ -1,4 +1,4 @@
-import { Fragment, useEffect } from 'react'
+import React, { Fragment, useEffect } from 'react'
 import {connect}               from 'react-redux'
 import Category                   from '../Category/Category'
 import { thunkGetCategoryImages } from '../../redux/thunks/category.thunk'

@@ -1,5 +1,5 @@
 import './App.css';
-import { useEffect }          from 'react'
+import React, { useEffect }          from 'react'
 import { thunkGetCategories } from './redux/thunks/category.thunk'
 import {connect}              from 'react-redux'
 import useRoutes              from './useRoutes'

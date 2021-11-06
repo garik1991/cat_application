@@ -1,3 +1,4 @@
+import React from "react";
 import "./Category.css"
 import {connect} from "react-redux";
 
